@@ -5,30 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.lenovo.myfirstapp.MainActivity">
+    tools:context="com.example.lenovo.myfirstapp.MainActivity"
+    android:background="@android:color/darker_gray">
 
     <TextView
 
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:text="List Guess" />
+        android:text="VIP List "
+        android:background="@android:color/holo_blue_dark"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:text="Fhernando" />
+        android:text="Fhernando"
+        android:background="@android:color/holo_blue_dark"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:text="Jose" />
+        android:text="Jose"
+        android:background="@android:color/holo_blue_dark"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:text="Nelson" />
+        android:text="Nelson"
+        android:background="@android:color/holo_blue_dark"/>
 </LinearLayout>
